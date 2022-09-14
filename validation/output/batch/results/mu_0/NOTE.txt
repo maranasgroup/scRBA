@@ -1,0 +1,4 @@
+Type this to command line / terminal
+gams runRBA.gms --mu=0
+
+The GAMS script for mu=0 are different than the default runRBA.gms script in its objective function, which is min vglc

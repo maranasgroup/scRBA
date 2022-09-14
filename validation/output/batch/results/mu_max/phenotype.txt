@@ -1,0 +1,6 @@
+$setGlobal vglc 0
+$include ../../phenotype_common.txt
+
+* Overwrite glucose uptake constraints to unconstrained, then determine maximal growth rate through GAMS
+v.up('RXN-EX_glc__D_e_REV-SPONT') = 100 * %nscale%;
+v.fx('RXN-EX_glc__D_e_FWD-SPONT') = 0 * %nscale%;

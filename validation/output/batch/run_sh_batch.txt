@@ -1,0 +1,42 @@
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_0_5
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_1_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_2_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_3_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_4_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_5_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_5_5
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_5_6
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_5_7
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_6_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_7_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_8_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_9_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_10_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_11_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_12_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_13_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_14_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_15_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_16_0
+qsub qsub.pbs -A cdm8_b_g_sc_default
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_17_0
+qsub qsub.pbs -A cdm8_b_g_sc_default

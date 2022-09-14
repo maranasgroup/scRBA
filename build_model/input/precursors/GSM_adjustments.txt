@@ -1,0 +1,1478 @@
+id	object_type	command
+# The model in ../../input/GSM_iSace1144_rba.json is built from iSace1144 model by executing model reconstruction commands in here
+# 02/15/2021
+# Remove catabolism reactions related to Biolog without GPR
+#EX_lac__L_e	rxn	remove
+#EX_lac__L_e	lac__L_e --> 	
+#EX_mal__L_e	rxn	remove
+#EX_mal__L_e	mal__L_e --> 	
+#EX_akg_e	rxn	remove
+#EX_akg_e	akg_e --> 	
+#EX_ac_e	rxn	remove
+#EX_ac_e	ac_e --> 	
+EX_ade_e	rxn	remove
+#EX_ade_e	ade_e --> 	
+EX_adn_e	rxn	remove
+#EX_adn_e	adn_e --> 	
+EX_alltn_e	rxn	remove
+#EX_alltn_e	alltn_e --> 	
+#EX_tre_e	rxn	remove
+#EX_tre_e	tre_e --> 	
+EX_gam6p_e	rxn	remove
+#EX_gam6p_e	gam6p_e --> 	
+#EX_nh4_e	rxn	remove
+#EX_nh4_e	nh4_e <=> 	
+#EX_cit_e	rxn	remove
+#EX_cit_e	cit_e --> 	
+EX_cytd_e	rxn	remove
+#EX_cytd_e	cytd_e --> 	
+EX_csn_e	rxn	remove
+#EX_csn_e	csn_e --> 	
+#EX_arab__D_e	rxn	remove
+#EX_arab__D_e	arab__D_e --> 	
+#EX_fru_e	rxn	remove
+#EX_fru_e	fru_e --> 	
+#EX_gal_e	rxn	remove
+#EX_gal_e	gal_e --> 	
+#EX_sbt__D_e	rxn	remove
+#EX_sbt__D_e	sbt__D_e --> 	
+#EX_glc__D_e	rxn	remove
+#EX_glc__D_e	glc__D_e <=> 	
+#EX_man_e	rxn	remove
+#EX_man_e	man_e --> 	
+#EX_rib__D_e	rxn	remove
+#EX_rib__D_e	rib__D_e --> 	
+#EX_xyl__D_e	rxn	remove
+#EX_xyl__D_e	xyl__D_e --> 	
+EX_dca_e	rxn	remove
+#EX_dca_e	dca_e --> 	
+#EX_etoh_e	rxn	remove
+#EX_etoh_e	etoh_e --> 	
+#EX_for_e	rxn	remove
+#EX_for_e	for_e --> 	
+#EX_fum_e	rxn	remove
+#EX_fum_e	fum_e --> 	
+EX_4abut_e	rxn	remove
+#EX_4abut_e	4abut_e --> 	
+EX_gthrd_e	rxn	remove
+#EX_gthrd_e	gthrd_e --> 	
+#EX_glyc_e	rxn	remove
+#EX_glyc_e	glyc_e --> 	
+#EX_gly_e	rxn	remove
+#EX_gly_e	gly_e --> 	
+#EX_glx_e	rxn	remove
+#EX_glx_e	glx_e --> 	
+EX_gua_e	rxn	remove
+#EX_gua_e	gua_e --> 	
+EX_gsn_e	rxn	remove
+#EX_gsn_e	gsn_e --> 	
+EX_ins_e	rxn	remove
+#EX_ins_e	ins_e --> 	
+#EX_ala__L_e	rxn	remove
+#EX_ala__L_e	ala__L_e --> 	
+#EX_abt__L_e	rxn	remove
+#EX_abt__L_e	abt__L_e --> 	
+#EX_arab__L_e	rxn	remove
+#EX_arab__L_e	arab__L_e --> 	
+#EX_arg__L_e	rxn	remove
+#EX_arg__L_e	arg__L_e --> 	
+#EX_asn__L_e	rxn	remove
+#EX_asn__L_e	asn__L_e --> 	
+#EX_asp__L_e	rxn	remove
+#EX_asp__L_e	asp__L_e --> 	
+#EX_cys__L_e	rxn	remove
+#EX_cys__L_e	cys__L_e --> 	
+#EX_glu__L_e	rxn	remove
+#EX_glu__L_e	glu__L_e --> 	
+#EX_gln__L_e	rxn	remove
+#EX_gln__L_e	gln__L_e --> 	
+EX_hom__L_e	rxn	remove
+#EX_hom__L_e	hom__L_e --> 	
+#EX_ile__L_e	rxn	remove
+#EX_ile__L_e	ile__L_e --> 	
+#EX_leu__L_e	rxn	remove
+#EX_leu__L_e	leu__L_e --> 	
+#EX_met__L_e	rxn	remove
+#EX_met__L_e	met__L_e --> 	
+#EX_phe__L_e	rxn	remove
+#EX_phe__L_e	phe__L_e --> 	
+#EX_pro__L_e	rxn	remove
+#EX_pro__L_e	pro__L_e --> 	
+#EX_ser__L_e	rxn	remove
+#EX_ser__L_e	ser__L_e --> 	
+#EX_thr__L_e	rxn	remove
+#EX_thr__L_e	thr__L_e --> 	
+#EX_trp__L_e	rxn	remove
+#EX_trp__L_e	trp__L_e --> 	
+#EX_tyr__L_e	rxn	remove
+#EX_tyr__L_e	tyr__L_e --> 	
+#EX_val__L_e	rxn	remove
+#EX_val__L_e	val__L_e --> 	
+#EX_malt_e	rxn	remove
+#EX_malt_e	malt_e --> 	
+EX_orn_e	rxn	remove
+#EX_orn_e	orn_e --> 	
+#EX_pi_e	rxn	remove
+#EX_pi_e	pi_e <=> 	
+#EX_pyr_e	rxn	remove
+#EX_pyr_e	pyr_e --> 	
+#EX_succ_e	rxn	remove
+#EX_succ_e	succ_e --> 	
+#EX_sucr_e	rxn	remove
+#EX_sucr_e	sucr_e --> 	
+#EX_so4_e	rxn	remove
+#EX_so4_e	so4_e <=> 	
+#EX_urea_e	rxn	remove
+#EX_urea_e	urea_e --> 	
+#EX_xylt_e	rxn	remove
+#EX_xylt_e	xylt_e --> 	
+EX_raffin_e	rxn	remove
+#EX_raffin_e	raffin_e --> 	
+r_4341	rxn	remove
+#r_4341	glyc2p_e <=> glyc2p_c	
+r_4342	rxn	remove
+#r_4342	glyc2p_c + h2o_c --> glyc_c + pi_c	
+r_4343	rxn	remove
+#r_4343	h_e + s_4065 <=> h_c + s_4064	
+r_4344	rxn	remove
+#r_4344	h2o_c + s_4064 --> pi_c + thr__L_c	
+r_4345	rxn	remove
+#r_4345	h2o_c + s_4066 --> gsn_c + pi_c	
+r_4346	rxn	remove
+#r_4346	h_e + s_4067 <=> h_c + s_4066	
+r_4347	rxn	remove
+#r_4347	h2o_c + s_4068 --> gsn_c + pi_c	
+r_4348	rxn	remove
+#r_4348	h_e + s_4069 <=> h_c + s_4068	
+r_4349	rxn	remove
+#r_4349	h_e + s_4070 <=> h_c + s_4071	
+r_4350	rxn	remove
+#r_4350	h2o_c + s_4071 --> pi_c + s_3997	
+r_4351	rxn	remove
+#r_4351	h2o_c + s_4072 --> pi_c + s_4073	
+r_4352	rxn	remove
+#r_4352	s_4075 <=> s_4072	
+r_4353	rxn	remove
+#r_4353	o2_c + s_4073 --> h_c + s_4076	
+r_4354	rxn	remove
+#r_4354	h2o_c + nad_c + s_4076 --> h_c + nadh_c + taur_c	
+r_4355	rxn	remove
+#r_4355	2obut_c + glu__L_c <=> akg_c + s_4079	
+r_4356	rxn	remove
+#r_4356	h_e + s_4080 <=> h_c + s_4079	
+r_4357	rxn	remove
+#r_4357	h2o_c + s_4081 --> pi_c + uri_c	
+r_4358	rxn	remove
+#r_4358	h_e + s_4082 <=> h_c + s_4081	
+r_4359	rxn	remove
+#r_4359	h2o_c + s_4083 --> pi_c + uri_c	
+r_4360	rxn	remove
+#r_4360	h_e + s_4084 <=> h_c + s_4083	
+r_4361	rxn	remove
+#r_4361	h_e + s_4085 <=> h_c + s_4086	YJR152W or YKR093W	ok to remove
+r_4362	rxn	remove
+#r_4362	h2o_v + s_4087 --> met__L_v + s_3839	
+r_4363	rxn	remove
+#r_4363	s_4088 --> pi_c + s_4089	
+r_4364	rxn	remove
+#r_4364	h_e + s_4090 <=> h_c + s_4088	
+r_4365	rxn	remove
+#r_4365	h_e + s_4091 <=> h_c + s_4089	
+r_4366	rxn	remove
+#r_4366	adp_c + h_c + s_4092 <=> arg__L_c + atp_c	
+r_4367	rxn	remove
+#r_4367	h_e + s_4093 <=> h_c + s_4092	
+r_4368	rxn	remove
+#r_4368	h2o_c + s_4096 --> pi_c + tyr__L_c	
+r_4369	rxn	remove
+#r_4369	h_e + s_4099 <=> h_c + s_4098	
+r_4370	rxn	remove
+#r_4370	h2o_c + s_4100 --> cytd_c + pi_c	
+r_4371	rxn	remove
+#r_4371	h_e + s_4101 <=> h_c + s_4100	
+r_4372	rxn	remove
+#r_4372	h2o_c + s_4102 --> h_c + s_4081	
+r_4373	rxn	remove
+#r_4373	h_e + s_4103 <=> h_c + s_4102	
+r_4374	rxn	remove
+#r_4374	h2o_c + s_4104 --> ala__L_c + so3_c	
+r_4375	rxn	remove
+#r_4375	h_e + s_4105 <=> h_c + s_4104	
+r_4376	rxn	remove
+#r_4376	h2o_c + s_4106 --> adn_c + pi_c	
+r_4377	rxn	remove
+#r_4377	s_4107 <=> s_4106	
+r_4378	rxn	remove
+#r_4378	h2o_c + s_4108 --> fru_c + glc__D_c	
+r_4379	rxn	remove
+#r_4379	h_e + s_4109 <=> h_c + s_4108	
+r_4380	rxn	remove
+#r_4380	coa_c + h_c + s_4110 <=> accoa_c + cys__L_c	
+r_4381	rxn	remove
+#r_4381	h_e + s_4111 <=> h_c + s_4110	
+r_4382	rxn	remove
+#r_4382	2.0 ficytC_m + s_4112 <=> 2.0 focytC_m + 2.0 s_4113	
+r_4383	rxn	remove
+#r_4383	s_4114 <=> s_4112	
+r_4384	rxn	remove
+#r_4384	h_c + nadph_c + s_4117 --> glcn_c + nadp_c	
+r_4385	rxn	remove
+#r_4385	h_e + s_4118 <=> h_c + s_4117	
+r_4386	rxn	remove
+#r_4386	h2o_v + s_4121 --> ala__L_v + asp__L_v	
+r_4387	rxn	remove
+#r_4387	h_e + s_4119 <=> h_c + s_4120	YJR152W or YKR093W	ok to remove
+r_4388	rxn	remove
+#r_4388	h2o_c + s_4126 --> h_c + s_4100	
+r_4389	rxn	remove
+#r_4389	h_e + s_4127 <=> h_c + s_4126	
+r_4390	rxn	remove
+#r_4390	h2o_c + s_4122 <=> glc__D_c + meoh_c	
+r_4391	rxn	remove
+#r_4391	meoh_c --> meoh_e	
+r_4392	rxn	remove
+#r_4392	h_e + s_4125 <=> h_c + s_4122	
+r_4393	rxn	remove
+#r_4393	atp_c + s_4128 --> adp_c + h_c + s_4129	
+r_4394	rxn	remove
+#r_4394	s_4129 <=> f6p_c	
+r_4395	rxn	remove
+#r_4395	s_4130 <=> s_4128	YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W	ok to remove
+ACACL_c	rxn	remove
+#ACACL_c	acac_c + atp_c + coa_c --> aacoa_c + amp_c + ppi_c	
+r_4397	rxn	remove
+#r_4397	h2o_c + s_4134 <=> ac_c + met__L_c	
+r_4398	rxn	remove
+#r_4398	h_e + s_4034 <=> h_c + s_4035	YJR152W or YKR093W	ok to remove
+r_4399	rxn	remove
+#r_4399	h_c + s_4038 <=> h_v + s_4039	
+r_4400	rxn	remove
+#r_4400	h2o_e + s_4140 --> glc__D_e + malt_e	
+r_4401	rxn	remove
+#r_4401	h_c + s_4041 <=> h_v + s_4042	
+r_4402	rxn	remove
+#r_4402	h_e + s_4040 <=> h_c + s_4041	YJR152W or YKR093W
+r_4403	rxn	remove
+#r_4403	h2o_c + s_4098 --> pi_c + ppi_c	YHR201C or YDR452W
+r_4404	rxn	remove
+#r_4404	h_e + s_4053 <=> h_c + s_4054	YJR152W or YKR093W
+r_4405	rxn	remove
+#r_4405	glyc1p_e <=> glyc1p_c	
+r_4406	rxn	remove
+#r_4406	h_e + s_4078 <=> h_c + s_4077	
+r_4407	rxn	remove
+#r_4407	h2o_c + s_4077 <=> pi_c + ser__D_c	
+r_4408	rxn	remove
+#r_4408	h_e + s_4037 <=> h_c + s_4038	YJR152W or YKR093W
+r_4409	rxn	remove
+#r_4409	h2o_v + s_4039 --> ala__L_v + glu__L_v	
+3OMALGL_c	rxn	remove
+#3OMALGL_c	3omal_c <=> glx_c + oaa_c	UNKNOWN
+r_4411	rxn	remove
+#r_4411	h2o_c + s_4138 --> nh4_c + pyr_c + so3_c	
+r_4412	rxn	remove
+#r_4412	h2o_c + s_4094 --> h_c + s_4066	
+r_4413	rxn	remove
+#r_4413	h2o_c + s_4044 --> pi_c + thymd_c	
+r_4414	rxn	remove
+#r_4414	h2o_v + s_4036 --> ala__L_v + gln__L_v	
+r_4415	rxn	remove
+#r_4415	h2o_v + s_4052 --> ala__L_v + his__L_v	
+r_4416	rxn	remove
+#r_4416	h2o_v + s_4042 --> ala__L_v + s_4043	
+r_4417	rxn	remove
+#r_4417	h2o_v + s_4055 --> asn__L_v + s_3839	
+r_4418	rxn	remove
+#r_4418	h2o_v + s_4058 --> gln__L_v + s_3839	
+r_4419	rxn	remove
+#r_4419	h_e + s_4139 <=> h_c + s_4138	
+r_4420	rxn	remove
+#r_4420	h2o_e + s_4131 <=> fru_e + glc__D_e	
+r_4421	rxn	remove
+#r_4421	h_e + s_4116 <=> h_c + s_4115	
+3OMALtps_c_e	rxn	remove
+#3OMALtps_c_e	3omal_e + h_e <=> 3omal_c + h_c	
+r_4423	rxn	remove
+#r_4423	h_c + s_4086 <=> h_v + s_4087	
+r_4424	rxn	remove
+#r_4424	h_e + s_4056 <=> h_c + s_4057	YJR152W or YKR093W
+r_4425	rxn	remove
+#r_4425	h_c + s_4057 <=> h_v + s_4058	
+r_4426	rxn	remove
+#r_4426	h_c + s_4035 <=> h_v + s_4036	
+r_4427	rxn	remove
+#r_4427	h_e + s_4135 <=> h_c + s_4134	
+r_4428	rxn	remove
+#r_4428	h_e + s_4097 <=> h_c + s_4096	
+r_4429	rxn	remove
+#r_4429	h_e + s_4050 <=> h_c + s_4051	YJR152W or YKR093W
+r_4430	rxn	remove
+#r_4430	h_c + s_4051 <=> h_v + s_4052	
+r_4431	rxn	remove
+#r_4431	h_c + s_4120 <=> h_v + s_4121	
+r_4432	rxn	remove
+#r_4432	fmnh2_c + o2_c + s_4115 --> fmn_c + gcald_c + h2o_c + h_c + so3_c	
+r_4433	rxn	remove
+#r_4433	s_4045 <=> s_4044	
+r_4434	rxn	remove
+#r_4434	s_4047 <=> s_4046	
+r_4435	rxn	remove
+#r_4435	glyc1p_c + h2o_c --> glyc_c + pi_c	YIL053W or YER062C
+r_4436	rxn	remove
+#r_4436	h2o_c + s_4046 --> pi_c + thymd_c	
+r_4437	rxn	remove
+#r_4437	h_e + s_4059 <=> h_c + s_4060	YJR152W or YKR093W
+r_4438	rxn	remove
+#r_4438	h_c + s_4060 <=> h_v + s_4061	
+r_4439	rxn	remove
+#r_4439	h2o_v + s_4061 --> glu__L_v + s_3839	
+r_4440	rxn	remove
+#r_4440	met__L_c <=> met__L_v	
+r_4441	rxn	remove
+#r_4441	thr__L_c <=> s_4043	
+EX_r_4442	rxn	remove
+#EX_r_4442	s_4074 --> 	
+r_4443	rxn	remove
+#r_4443	s_4095 <=> s_4094	
+r_4444	rxn	remove
+#r_4444	h_e + s_4141 <=> 2pg_c + h_c	
+r_4445	rxn	remove
+#r_4445	h_e + s_4142 <=> 3pg_c + h_c	
+r_4446	rxn	remove
+#r_4446	g1p_e <=> g1p_c	
+r_4447	rxn	remove
+#r_4447	s_4146 <=> cbp_c	
+r_4448	rxn	remove
+#r_4448	h_e + s_4143 <=> h_c + s_4144	YJR152W or YKR093W
+r_4449	rxn	remove
+#r_4449	h_c + s_4144 <=> h_v + s_3757	
+r_4450	rxn	remove
+#r_4450	h_e + s_4147 <=> h_c + pser__L_c	
+r_4451	rxn	remove
+#r_4451	gmp_e + h_e <=> gmp_c + h_c	
+r_4452	rxn	remove
+#r_4452	s_4149 <=> inoshp_c	
+r_4453	rxn	remove
+#r_4453	g6p_e <=> g6p_c	
+r_4454	rxn	remove
+#r_4454	ump_e <=> ump_c	
+r_4455	rxn	remove
+#r_4455	h_e + pep_e <=> h_c + pep_c	
+r_4456	rxn	remove
+#r_4456	man6p_e <=> man6p_c	
+r_4457	rxn	remove
+#r_4457	h_e + s_4154 <=> ethamp_c + h_c	YDR093W
+r_4458	rxn	remove
+#r_4458	h_e + s_4155 <=> 6pgc_c + h_c	
+r_4459	rxn	remove
+#r_4459	h_e + man1p_e <=> h_c + man1p_c	
+r_4460	rxn	remove
+#r_4460	2.0 h_e + ppi_e <=> 2.0 h_c + ppi_c	
+r_4461	rxn	remove
+#r_4461	s_4158 <=> cholp_c	
+r_4462	rxn	remove
+#r_4462	s_4159 <=> s_4113	
+r_4463	rxn	remove
+#r_4463	amp_e + h_e <=> amp_c + h_c	
+r_4464	rxn	remove
+#r_4464	s_4161 <=> 23camp_c	
+r_4465	rxn	remove
+#r_4465	h_e + s_4162 <=> amp2_c + h_c	
+r_4466	rxn	remove
+#r_4466	cmp_e + h_e <=> cmp_c + h_c	
+r_4467	rxn	remove
+#r_4467	gam_e <=> s_3953	
+r_4468	rxn	remove
+#r_4468	s_4165 <=> drib_c	YDR342C or YHR092C
+r_4469	rxn	remove
+#r_4469	citr__L_e + h_e <=> citr__L_c + h_c	YKR039W
+r_4470	rxn	remove
+#r_4470	dha_e <=> dha_c	
+r_4471	rxn	remove
+#r_4471	h_e + s_4168 <=> h_c + s_4169	YJR152W or YKR093W
+r_4472	rxn	remove
+#r_4472	h_c + s_4169 <=> h_v + s_3840	
+r_4473	rxn	remove
+#r_4473	h_e + s_4170 <=> h_c + s_4171	YJR152W or YKR093W
+r_4474	rxn	remove
+#r_4474	h_c + s_4171 <=> h_v + s_3838	
+r_4475	rxn	remove
+#r_4475	s_4172 <=> s_4173	
+r_4476	rxn	remove
+#r_4476	s_4173 <=> acglu_m	
+r_4477	rxn	remove
+#r_4477	h_e + s_4174 <=> h_c + s_4175	
+r_4478	rxn	remove
+#r_4478	s_4176 <=> s_3837	
+r_4479	rxn	remove
+#r_4479	h_c + s_4054 <=> h_v + s_4055	
+r_4480	rxn	remove
+#r_4480	h_e + s_4074 <=> h_c + s_4073	
+r_4481	rxn	remove
+#r_4481	h2s_c + 2.0 o2_c --> h_c + so4_c	
+r_4482	rxn	remove
+#r_4482	ala__L_c + h_c <=> ala__L_v + h_v	
+r_4483	rxn	remove
+#r_4483	gly_c + h_c <=> h_v + s_3839	
+r_4485	rxn	remove
+#r_4485	34hpp_c + o2_c --> co2_c + hgentis_c	
+r_4486	rxn	remove
+#r_4486	hgentis_c + o2_c --> 4mlacac_c + h_c	
+r_4487	rxn	remove
+#r_4487	4mlacac_c --> 4fumacac_c	
+r_4488	rxn	remove
+#r_4488	4fumacac_c + h2o_c --> acac_c + fum_c + h_c	
+r_4489	rxn	remove
+#r_4489	abt__L_c + nad_c --> h_c + nadh_c + s_4180	
+r_4490	rxn	remove
+#r_4490	h_c + nadph_c + s_4180 <=> nadp_c + xylt_c	
+r_4491	rxn	remove
+#r_4491	arab__D_c + h_c + nadph_c --> nadp_c + s_4181	
+r_4492	rxn	remove
+#r_4492	nad_c + s_4181 --> h_c + nadh_c + xylu__D_c	
+ACACt_c_e	rxn	remove
+#ACACt_c_e	acac_e <=> acac_c	YNL065W
+EX_meoh_e	rxn	remove
+#EX_meoh_e	meoh_e --> 	
+r_4495	rxn	remove
+#r_4495	amp2_c + h2o_c --> adn_c + pi_c	
+EX_r_4496	rxn	remove
+#EX_r_4496	s_4170 --> 	
+EX_3omal_e	rxn	remove
+#EX_3omal_e	3omal_e --> 	
+EX_r_4498	rxn	remove
+#EX_r_4498	s_4109 --> 	
+EX_r_4499	rxn	remove
+#EX_r_4499	s_4118 --> 	
+EX_r_4500	rxn	remove
+#EX_r_4500	s_4130 --> 	
+EX_r_4501	rxn	remove
+#EX_r_4501	s_4131 --> 	
+EX_g6p_e	rxn	remove
+#EX_g6p_e	g6p_e --> 	
+EX_r_4503	rxn	remove
+#EX_r_4503	s_4140 --> 	
+EX_g1p_e	rxn	remove
+#EX_g1p_e	g1p_e --> 	
+EX_r_4505	rxn	remove
+#EX_r_4505	s_4125 --> 	
+EX_gam_e	rxn	remove
+#EX_gam_e	gam_e --> 	
+EX_dha_e	rxn	remove
+#EX_dha_e	dha_e --> 	
+EX_r_4508	rxn	remove
+#EX_r_4508	s_4034 --> 	
+EX_r_4509	rxn	remove
+#EX_r_4509	s_4168 --> 	
+EX_r_4510	rxn	remove
+#EX_r_4510	s_4056 --> 	
+EX_r_4511	rxn	remove
+#EX_r_4511	s_4050 --> 	
+EX_r_4512	rxn	remove
+#EX_r_4512	s_4053 --> 	
+EX_r_4513	rxn	remove
+#EX_r_4513	s_4037 --> 	
+EX_r_4514	rxn	remove
+#EX_r_4514	s_4085 --> 	
+EX_r_4515	rxn	remove
+#EX_r_4515	s_4119 --> 	
+EX_r_4516	rxn	remove
+#EX_r_4516	s_4059 --> 	
+EX_r_4517	rxn	remove
+#EX_r_4517	s_4040 --> 	
+EX_r_4518	rxn	remove
+#EX_r_4518	s_4143 --> 	
+EX_citr__L_e	rxn	remove
+#EX_citr__L_e	citr__L_e --> 	
+EX_r_4520	rxn	remove
+#EX_r_4520	s_4080 --> 	
+EX_r_4521	rxn	remove
+#EX_r_4521	s_4158 --> 	
+EX_glyc1p_e	rxn	remove
+#EX_glyc1p_e	glyc1p_e --> 	
+EX_r_4523	rxn	remove
+#EX_r_4523	s_4141 --> 	
+EX_gmp_e	rxn	remove
+#EX_gmp_e	gmp_e --> 	
+EX_r_4525	rxn	remove
+#EX_r_4525	s_4147 --> 	
+EX_r_4526	rxn	remove
+#EX_r_4526	s_4078 --> 	
+EX_ppi_e	rxn	remove
+#EX_ppi_e	ppi_e --> 	
+EX_r_4528	rxn	remove
+#EX_r_4528	s_4099 --> 	
+EX_pep_e	rxn	remove
+#EX_pep_e	pep_e --> 	
+EX_r_4530	rxn	remove
+#EX_r_4530	s_4093 --> 	
+EX_r_4531	rxn	remove
+#EX_r_4531	s_4146 --> 	
+EX_r_4532	rxn	remove
+#EX_r_4532	s_4154 --> 	
+EX_r_4533	rxn	remove
+#EX_r_4533	s_4075 --> 	
+EX_r_4534	rxn	remove
+#EX_r_4534	s_4067 --> 	
+EX_glyc2p_e	rxn	remove
+#EX_glyc2p_e	glyc2p_e --> 	
+EX_r_4536	rxn	remove
+#EX_r_4536	s_4069 --> 	
+EX_r_4537	rxn	remove
+#EX_r_4537	s_4070 --> 	
+EX_r_4538	rxn	remove
+#EX_r_4538	s_4155 --> 	
+EX_man6p_e	rxn	remove
+#EX_man6p_e	man6p_e --> 	
+EX_r_4540	rxn	remove
+#EX_r_4540	s_4095 --> 	
+EX_r_4541	rxn	remove
+#EX_r_4541	s_4097 --> 	
+EX_r_4542	rxn	remove
+#EX_r_4542	s_4065 --> 	
+EX_r_4543	rxn	remove
+#EX_r_4543	s_4142 --> 	
+EX_r_4544	rxn	remove
+#EX_r_4544	s_4162 --> 	
+EX_r_4545	rxn	remove
+#EX_r_4545	s_4107 --> 	
+EX_r_4546	rxn	remove
+#EX_r_4546	s_4161 --> 	
+EX_man1p_e	rxn	remove
+#EX_man1p_e	man1p_e --> 	
+EX_amp_e	rxn	remove
+#EX_amp_e	amp_e --> 	
+EX_r_4549	rxn	remove
+#EX_r_4549	s_4135 --> 	
+EX_r_4550	rxn	remove
+#EX_r_4550	s_4176 --> 	
+EX_r_4551	rxn	remove
+#EX_r_4551	s_4105 --> 	
+EX_r_4552	rxn	remove
+#EX_r_4552	s_4111 --> 	
+EX_r_4553	rxn	remove
+#EX_r_4553	s_4139 --> 	
+EX_r_4554	rxn	remove
+#EX_r_4554	s_4116 --> 	
+EX_r_4555	rxn	remove
+#EX_r_4555	acac_e --> 	
+EX_r_4556	rxn	remove
+#EX_r_4556	s_4172 --> 	
+EX_ump_e	rxn	remove
+#EX_ump_e	ump_e --> 	
+EX_cmp_e	rxn	remove
+#EX_cmp_e	cmp_e --> 	
+EX_r_4559	rxn	remove
+#EX_r_4559	s_4047 --> 	
+EX_r_4560	rxn	remove
+#EX_r_4560	s_4045 --> 	
+EX_r_4561	rxn	remove
+#EX_r_4561	s_4101 --> 	
+EX_r_4562	rxn	remove
+#EX_r_4562	s_4082 --> 	
+EX_r_4563	rxn	remove
+#EX_r_4563	s_4084 --> 	
+EX_r_4564	rxn	remove
+#EX_r_4564	s_4127 --> 	
+EX_r_4565	rxn	remove
+#EX_r_4565	s_4103 --> 	
+ACS_n	rxn	remove
+#New rxns in yeast8.3.4 that do not carry flux under open exchange conditions
+#Some exchange rxns already removed from entries right above
+r_4152	rxn	remove
+r_4153	rxn	remove
+r_4154	rxn	remove
+r_4155	rxn	remove
+r_4156	rxn	remove
+r_4157	rxn	remove
+r_4158	rxn	remove
+r_4159	rxn	remove
+r_4160	rxn	remove
+r_4164	rxn	remove
+r_4165	rxn	remove
+r_4166	rxn	remove
+r_4168	rxn	remove
+r_4169	rxn	remove
+r_4170	rxn	remove
+r_4172	rxn	remove
+r_4173	rxn	remove
+r_4174	rxn	remove
+r_4175	rxn	remove
+r_4176	rxn	remove
+r_4177	rxn	remove
+r_4178	rxn	remove
+r_4179	rxn	remove
+r_4180	rxn	remove
+r_4183	rxn	remove
+r_4184	rxn	remove
+r_4186	rxn	remove
+r_4187	rxn	remove
+r_4189	rxn	remove
+r_4190	rxn	remove
+r_4191	rxn	remove
+r_4192	rxn	remove
+r_4193	rxn	remove
+r_4195	rxn	remove
+r_4196	rxn	remove
+r_4197	rxn	remove
+r_4198	rxn	remove
+r_4199	rxn	remove
+r_4200	rxn	remove
+r_4201	rxn	remove
+r_4202	rxn	remove
+r_4203	rxn	remove
+r_4204	rxn	remove
+r_4206	rxn	remove
+r_4207	rxn	remove
+r_4208	rxn	remove
+r_4209	rxn	remove
+r_4210	rxn	remove
+r_4211	rxn	remove
+r_4215	rxn	remove
+r_4217	rxn	remove
+r_4218	rxn	remove
+r_4219	rxn	remove
+r_4220	rxn	remove
+r_4221	rxn	remove
+r_4222	rxn	remove
+r_4223	rxn	remove
+r_4225	rxn	remove
+r_4227	rxn	remove
+r_4228	rxn	remove
+r_4229	rxn	remove
+r_4230	rxn	remove
+r_4231	rxn	remove
+r_4233	rxn	remove
+r_4234	rxn	remove
+r_4237	rxn	remove
+r_4238	rxn	remove
+r_4239	rxn	remove
+r_4240	rxn	remove
+r_4241	rxn	remove
+r_4242	rxn	remove
+r_4243	rxn	remove
+r_4244	rxn	remove
+r_4245	rxn	remove
+r_4246	rxn	remove
+r_4247	rxn	remove
+r_4248	rxn	remove
+r_4249	rxn	remove
+r_4250	rxn	remove
+r_4251	rxn	remove
+r_4252	rxn	remove
+r_4253	rxn	remove
+r_4254	rxn	remove
+r_4255	rxn	remove
+r_4256	rxn	remove
+r_4258	rxn	remove
+r_4260	rxn	remove
+r_4261	rxn	remove
+r_4263	rxn	remove
+r_4265	rxn	remove
+r_4269	rxn	remove
+r_4270	rxn	remove
+r_4271	rxn	remove
+r_4272	rxn	remove
+r_4273	rxn	remove
+r_4275	rxn	remove
+r_4276	rxn	remove
+r_4277	rxn	remove
+r_4278	rxn	remove
+r_4279	rxn	remove
+r_4282	rxn	remove
+r_4283	rxn	remove
+r_4284	rxn	remove
+r_4285	rxn	remove
+r_4286	rxn	remove
+r_4287	rxn	remove
+r_4288	rxn	remove
+r_4291	rxn	remove
+r_4294	rxn	remove
+r_4295	rxn	remove
+r_4296	rxn	remove
+r_4297	rxn	remove
+r_4298	rxn	remove
+r_4299	rxn	remove
+r_4300	rxn	remove
+r_4301	rxn	remove
+r_4302	rxn	remove
+r_4303	rxn	remove
+r_4304	rxn	remove
+r_4305	rxn	remove
+r_4306	rxn	remove
+r_4307	rxn	remove
+r_4308	rxn	remove
+r_4309	rxn	remove
+r_4310	rxn	remove
+r_4311	rxn	remove
+r_4312	rxn	remove
+r_4313	rxn	remove
+r_4314	rxn	remove
+r_4315	rxn	remove
+r_4316	rxn	remove
+r_4317	rxn	remove
+r_4318	rxn	remove
+r_4319	rxn	remove
+r_4320	rxn	remove
+r_4321	rxn	remove
+r_4322	rxn	remove
+r_4325	rxn	remove
+r_4326	rxn	remove
+r_4328	rxn	remove
+r_4329	rxn	remove
+r_4331	rxn	remove
+r_4333	rxn	remove
+r_4334	rxn	remove
+r_4336	rxn	remove
+r_4337	rxn	remove
+r_4338	rxn	remove
+r_4339	rxn	remove
+r_4340	rxn	remove
+r_4568	rxn	remove
+r_4569	rxn	remove
+r_4576	rxn	remove
+r_4577	rxn	remove
+r_4578	rxn	remove
+r_4579	rxn	remove
+r_4580	rxn	remove
+r_4585	rxn	remove
+r_4586	rxn	remove
+r_4588	rxn	remove
+r_4601	rxn	remove
+r_4602	rxn	remove
+r_4603	rxn	remove
+r_4604	rxn	remove
+r_4605	rxn	remove
+r_4606	rxn	remove
+r_4612	rxn	remove
+r_4613	rxn	remove
+r_4614	rxn	remove
+r_4615	rxn	remove
+r_4616	rxn	remove
+r_4617	rxn	remove
+r_4618	rxn	remove
+r_4619	rxn	remove
+r_4620	rxn	remove
+r_4621	rxn	remove
+r_4622	rxn	remove
+r_4623	rxn	remove
+r_4624	rxn	remove
+r_4625	rxn	remove
+r_4626	rxn	remove
+r_4627	rxn	remove
+r_4628	rxn	remove
+AKGDa_m	rxn	remove
+AKGDb_m	rxn	remove
+GCC2a_m	rxn	remove
+GCC2c_m	rxn	remove
+GCCa_m	rxn	remove
+GCCbi_m	rxn	remove
+GCCc_m	rxn	remove
+GCC2bi_m	rxn	remove
+3MOPDC_c	rxn	remove
+4MOPDC_c	rxn	remove
+FRDfmn_c	rxn	remove
+PTRCt_c_e	rxn	remove
+SPMDt_c_e	rxn	remove
+EX_hco3_e	rxn	remove
+ALATA_L_c	rxn	remove
+EX_13BDglucan_e	rxn	subsystem:Exchange
+EX_crn_e	rxn	subsystem:Exchange
+EX_lac__D_e	rxn	subsystem:Exchange
+EX_mev__R_e	rxn	subsystem:Exchange
+EX_pnto__R_e	rxn	subsystem:Exchange
+EX_btd_e	rxn	subsystem:Exchange
+EX_3mop_e	rxn	subsystem:Exchange
+EX_lac__L_e	rxn	subsystem:Exchange
+EX_mal__L_e	rxn	subsystem:Exchange
+EX_g3pi_e	rxn	subsystem:Exchange
+EX_1agpc_gen_e	rxn	subsystem:Exchange
+EX_dad_2_e	rxn	subsystem:Exchange
+EX_dgsn_e	rxn	subsystem:Exchange
+EX_din_e	rxn	subsystem:Exchange
+EX_duri_e	rxn	subsystem:Exchange
+EX_3c3hmp_e	rxn	subsystem:Exchange
+EX_2mbald_e	rxn	subsystem:Exchange
+EX_2mbtoh_e	rxn	subsystem:Exchange
+EX_2mbac_e	rxn	subsystem:Exchange
+EX_akg_e	rxn	subsystem:Exchange
+EX_2phetoh_e	rxn	subsystem:Exchange
+EX_3mbald_e	rxn	subsystem:Exchange
+EX_4abz_e	rxn	subsystem:Exchange
+EX_5aop_e	rxn	subsystem:Exchange
+EX_5fthf_e	rxn	subsystem:Exchange
+EX_dann_e	rxn	subsystem:Exchange
+EX_8aonn_e	rxn	subsystem:Exchange
+EX_xan_e	rxn	subsystem:Exchange
+EX_acald_e	rxn	subsystem:Exchange
+EX_ac_e	rxn	subsystem:Exchange
+EX_pap_e	rxn	subsystem:Exchange
+EX_alltt_e	rxn	subsystem:Exchange
+EX_tre_e	rxn	subsystem:Exchange
+EX_nh4_e	rxn	subsystem:Exchange
+EX_btn_e	rxn	subsystem:Exchange
+EX_co2_e	rxn	subsystem:Exchange
+EX_chol_e	rxn	subsystem:Exchange
+EX_cit_e	rxn	subsystem:Exchange
+EX_arab__D_e	rxn	subsystem:Exchange
+EX_fru_e	rxn	subsystem:Exchange
+EX_gal_e	rxn	subsystem:Exchange
+EX_galur_e	rxn	subsystem:Exchange
+EX_sbt__D_e	rxn	subsystem:Exchange
+EX_glc__D_e	rxn	subsystem:Exchange
+EX_man_e	rxn	subsystem:Exchange
+EX_rib__D_e	rxn	subsystem:Exchange
+EX_xyl__D_e	rxn	subsystem:Exchange
+EX_dcyt_e	rxn	subsystem:Exchange
+EX_dttp_e	rxn	subsystem:Exchange
+EX_epist_e	rxn	subsystem:Exchange
+EX_ergst_e	rxn	subsystem:Exchange
+EX_etoh_e	rxn	subsystem:Exchange
+EX_etha_e	rxn	subsystem:Exchange
+EX_etac_e	rxn	subsystem:Exchange
+EX_fecost_e	rxn	subsystem:Exchange
+EX_fmn_e	rxn	subsystem:Exchange
+EX_fol_e	rxn	subsystem:Exchange
+EX_for_e	rxn	subsystem:Exchange
+EX_fum_e	rxn	subsystem:Exchange
+EX_gthox_e	rxn	subsystem:Exchange
+EX_glyc_e	rxn	subsystem:Exchange
+EX_gly_e	rxn	subsystem:Exchange
+EX_gcald_e	rxn	subsystem:Exchange
+EX_glx_e	rxn	subsystem:Exchange
+EX_h_e	rxn	subsystem:Exchange
+EX_hxdcal_e	rxn	subsystem:Exchange
+EX_hxan_e	rxn	subsystem:Exchange
+EX_id3acald_e	rxn	subsystem:Exchange
+EX_fe2_e	rxn	subsystem:Exchange
+EX_iamac_e	rxn	subsystem:Exchange
+EX_iamoh_e	rxn	subsystem:Exchange
+EX_ibutoh_e	rxn	subsystem:Exchange
+EX_ibutac_e	rxn	subsystem:Exchange
+EX_ibtald_e	rxn	subsystem:Exchange
+EX_ala__L_e	rxn	subsystem:Exchange
+EX_abt__L_e	rxn	subsystem:Exchange
+EX_arab__L_e	rxn	subsystem:Exchange
+EX_arg__L_e	rxn	subsystem:Exchange
+EX_asn__L_e	rxn	subsystem:Exchange
+EX_asp__L_e	rxn	subsystem:Exchange
+EX_cys__L_e	rxn	subsystem:Exchange
+EX_sbt__L_e	rxn	subsystem:Exchange
+EX_glu__L_e	rxn	subsystem:Exchange
+EX_gln__L_e	rxn	subsystem:Exchange
+EX_his__L_e	rxn	subsystem:Exchange
+EX_ile__L_e	rxn	subsystem:Exchange
+EX_leu__L_e	rxn	subsystem:Exchange
+EX_lys__L_e	rxn	subsystem:Exchange
+EX_met__L_e	rxn	subsystem:Exchange
+EX_phe__L_e	rxn	subsystem:Exchange
+EX_pro__L_e	rxn	subsystem:Exchange
+EX_ser__L_e	rxn	subsystem:Exchange
+EX_srb__L_e	rxn	subsystem:Exchange
+EX_thr__L_e	rxn	subsystem:Exchange
+EX_trp__L_e	rxn	subsystem:Exchange
+EX_tyr__L_e	rxn	subsystem:Exchange
+EX_val__L_e	rxn	subsystem:Exchange
+EX_lanost_e	rxn	subsystem:Exchange
+EX_ddca_e	rxn	subsystem:Exchange
+EX_malt_e	rxn	subsystem:Exchange
+EX_inost_e	rxn	subsystem:Exchange
+EX_Nfortyr2_e	rxn	subsystem:Exchange
+EX_nac_e	rxn	subsystem:Exchange
+EX_nmn_e	rxn	subsystem:Exchange
+EX_octa_e	rxn	subsystem:Exchange
+EX_oaa_e	rxn	subsystem:Exchange
+EX_o2_e	rxn	subsystem:Exchange
+EX_hdca_e	rxn	subsystem:Exchange
+EX_hdcea_e	rxn	subsystem:Exchange
+EX_pectin_e	rxn	subsystem:Exchange
+EX_pheac_e	rxn	subsystem:Exchange
+EX_pacald_e	rxn	subsystem:Exchange
+EX_pi_e	rxn	subsystem:Exchange
+EX_k_e	rxn	subsystem:Exchange
+EX_ptrc_e	rxn	subsystem:Exchange
+EX_pydxn_e	rxn	subsystem:Exchange
+EX_pyr_e	rxn	subsystem:Exchange
+EX_ribflv_e	rxn	subsystem:Exchange
+EX_amet_e	rxn	subsystem:Exchange
+EX_mmet_e	rxn	subsystem:Exchange
+EX_g3pc_e	rxn	subsystem:Exchange
+EX_na1_e	rxn	subsystem:Exchange
+EX_spmd_e	rxn	subsystem:Exchange
+EX_sprm_e	rxn	subsystem:Exchange
+EX_ocdca_e	rxn	subsystem:Exchange
+EX_succ_e	rxn	subsystem:Exchange
+EX_sucr_e	rxn	subsystem:Exchange
+EX_so4_e	rxn	subsystem:Exchange
+EX_so3_e	rxn	subsystem:Exchange
+EX_taur_e	rxn	subsystem:Exchange
+EX_thmpp_e	rxn	subsystem:Exchange
+EX_thm_e	rxn	subsystem:Exchange
+EX_thmmp_e	rxn	subsystem:Exchange
+EX_thymd_e	rxn	subsystem:Exchange
+EX_ind3eth_e	rxn	subsystem:Exchange
+EX_ura_e	rxn	subsystem:Exchange
+EX_urea_e	rxn	subsystem:Exchange
+EX_uri_e	rxn	subsystem:Exchange
+EX_h2o_e	rxn	subsystem:Exchange
+EX_xtsn_e	rxn	subsystem:Exchange
+EX_xylt_e	rxn	subsystem:Exchange
+EX_zymst_e	rxn	subsystem:Exchange
+EX_14dmlanost_e	rxn	subsystem:Exchange
+EX_ergtetrol_e	rxn	subsystem:Exchange
+EX_but_e	rxn	subsystem:Exchange
+EX_hxa_e	rxn	subsystem:Exchange
+EX_ocdcea_e	rxn	subsystem:Exchange
+EX_ttdca_e	rxn	subsystem:Exchange
+EX_melib_e	rxn	subsystem:Exchange
+MEVt_c_e	rxn	gpr:SPONT
+BTDt_c_e	rxn	gpr:SPONT
+2MBACt_c_e	rxn	gpr:SPONT
+3DH5HPBt_c_m	rxn	gpr:SPONT
+5FTHFt_c_e	rxn	gpr:SPONT
+ETACt_c_e	rxn	gpr:SPONT
+LACtps_m	rxn	gpr:SPONT
+LACPYRt_c_m	rxn	gpr:SPONT
+FOLt_c_e	rxn	gpr:SPONT
+GLYCOGENt_c_v	rxn	gpr:SPONT
+IAMACt_c_e	rxn	gpr:SPONT
+IBUTACt_c_e	rxn	gpr:SPONT
+IPDPt_c_m	rxn	gpr:SPONT
+PENDPt_c_m	rxn	gpr:SPONT
+PHEACt_c_e	rxn	gpr:SPONT
+TAURt_c_e	rxn	gpr:SPONT
+13BDGLUCANt_c_en	rxn	gpr:SPONT
+MI13456Pt_c_n	rxn	gpr:SPONT
+MI1Pt_c_r	rxn	gpr:SPONT
+2DDA7Pt_c_m	rxn	gpr:SPONT
+2DHPt_c_m	rxn	gpr:SPONT
+3C3HMPt_c_e	rxn	gpr:SPONT
+2MBTOHt_c_e	rxn	gpr:SPONT
+2MBTOHt_c_m	rxn	gpr:SPONT
+2MBALDt_c_e	rxn	gpr:SPONT
+2MBALDt_c_m	rxn	gpr:SPONT
+IBTALDt_c_e	rxn	gpr:SPONT
+IBTALDt_c_m	rxn	gpr:SPONT
+2OBUTt_c_m	rxn	gpr:SPONT
+AKGt_c_n	rxn	gpr:SPONT
+AKGt_c_e	rxn	gpr:SPONT
+2PHETOHt_c_e	rxn	gpr:SPONT
+2PHETOHt_c_m	rxn	gpr:SPONT
+3C4MOPt_c_m	rxn	gpr:SPONT
+3MOPt_c_m	rxn	gpr:SPONT
+3MOPt_c_e	rxn	gpr:SPONT
+3MBALDt_c_e	rxn	gpr:SPONT
+3MBALDt_c_m	rxn	gpr:SPONT
+3HXPHBt_c_m	rxn	gpr:SPONT
+4ABZt_c_e	rxn	gpr:SPONT
+4ABZt_c_m	rxn	gpr:SPONT
+4ABUTNt_c_m	rxn	gpr:SPONT
+4ABUTt_c_m	rxn	gpr:SPONT
+4H2OGLTt_c_m	rxn	gpr:SPONT
+4H2OGLTt_c_x	rxn	gpr:SPONT
+4HBZt_c_m	rxn	gpr:SPONT
+5AOPt_c_m	rxn	gpr:SPONT
+DANNt_c_e	rxn	gpr:SPONT
+ACALDt_c_m	rxn	gpr:SPONT
+ACALDt_c_e	rxn	gpr:SPONT
+ACt_c_n	rxn	gpr:SPONT
+ACCOAt_c_n	rxn	gpr:SPONT
+ACRNt_c_x	rxn	gpr:SPONT
+ADEt_c_m	rxn	gpr:SPONT
+ADPt_c_n	rxn	gpr:SPONT
+ADPt_c_r	rxn	gpr:SPONT
+AKGt_c_x	rxn	gpr:SPONT
+AKGMALt_c_e	rxn	gpr:SPONT
+AMPt_c_n	rxn	gpr:SPONT
+ASPGLUt_c_x	rxn	gpr:SPONT
+ATPt_c_n	rxn	gpr:SPONT
+ATPt_c_r	rxn	gpr:SPONT
+HCO3t_c_n	rxn	gpr:SPONT
+CRNt_c_x	rxn	gpr:SPONT
+CRNCARt_c_x	rxn	gpr:SPONT
+CDPt_c_n	rxn	gpr:SPONT
+CITt_c_e	rxn	gpr:SPONT
+CITICTta_x	rxn	gpr:SPONT
+CITMALta_x	rxn	gpr:SPONT
+COAt_c_r	rxn	gpr:SPONT
+COAt_c_n	rxn	gpr:SPONT
+COAt_c_x	rxn	gpr:SPONT
+E4Pt_c_m	rxn	gpr:SPONT
+GAM6Pt_c	rxn	gpr:SPONT
+DADPt_c_n	rxn	gpr:SPONT
+DCDPt_c_n	rxn	gpr:SPONT
+DNADt_c_n	rxn	gpr:SPONT
+DADt_c_e	rxn	gpr:SPONT
+DCYTt_c_e	rxn	gpr:SPONT
+DGSNt_c_e	rxn	gpr:SPONT
+DINt_c_e	rxn	gpr:SPONT
+DGDPt_c_n	rxn	gpr:SPONT
+DHNPTt_c_m	rxn	gpr:SPONT
+DHFt_c_m	rxn	gpr:SPONT
+DHPTt_c_m	rxn	gpr:SPONT
+DHAPt_c_m	rxn	gpr:SPONT
+PPIt_c_x	rxn	gpr:SPONT
+DOLPt_c_r	rxn	gpr:SPONT
+DTTPt_c	rxn	gpr:SPONT
+DUDPt_c_n	rxn	gpr:SPONT
+DUMPt_c_n	rxn	gpr:SPONT
+ERGTETROLt_c_r	rxn	gpr:SPONT
+FRDPt_c_m	rxn	gpr:SPONT
+DCAt_c_x	rxn	gpr:SPONT
+HDCEAt_x	rxn	gpr:SPONT
+OCTAt_c_x	rxn	gpr:SPONT
+TTDCAt_c_e	rxn	gpr:SPONT
+FORt_c_m	rxn	gpr:SPONT
+FUMt_c_e	rxn	gpr:SPONT
+GDPt_c_g	rxn	gpr:SPONT
+GDPt_c_n	rxn	gpr:SPONT
+GLYC3Pt_c_m	rxn	gpr:SPONT
+GCALDt_c_m	rxn	gpr:SPONT
+GCALDt_c_e	rxn	gpr:SPONT
+GLXt_c_x	rxn	gpr:SPONT
+GUAt_c_m	rxn	gpr:SPONT
+GSNt_c_m	rxn	gpr:SPONT
+GSNt_c_e	rxn	gpr:SPONT
+Ht_c_e	rxn	gpr:SPONT
+Ht_c_r	rxn	gpr:SPONT
+Ht_c_g	rxn	gpr:SPONT
+Ht_c_l	rxn	gpr:SPONT
+Ht_c_n	rxn	gpr:SPONT
+Ht_c_x	rxn	gpr:SPONT
+Ht_c_v	rxn	gpr:SPONT
+HXCCOAt_c_r	rxn	gpr:SPONT
+HDCAt_c_e	rxn	gpr:SPONT
+HDCEAt_c_e	rxn	gpr:SPONT
+H2O2t_c_n	rxn	gpr:SPONT
+HMGCOAt_c_m	rxn	gpr:SPONT
+HXANt_c_e	rxn	gpr:SPONT
+ID3ACALDt_c_m	rxn	gpr:SPONT
+ID3ACALDt_c_e	rxn	gpr:SPONT
+IND3ACt_c_m	rxn	gpr:SPONT
+INSt_c_e	rxn	gpr:SPONT
+INOSHPt_c_n	rxn	gpr:SPONT
+IAMOHt_c_e	rxn	gpr:SPONT
+IAMOHt_c_m	rxn	gpr:SPONT
+IBUTOHt_c_e	rxn	gpr:SPONT
+IBUTOHt_c_m	rxn	gpr:SPONT
+ALAt_c_m	rxn	gpr:SPONT
+ABTt_c_e	rxn	gpr:SPONT
+E4HGLUt_c_m	rxn	gpr:SPONT
+E4HGLUt_c_x	rxn	gpr:SPONT
+GLUt_c_n	rxn	gpr:SPONT
+GLNt_c_n	rxn	gpr:SPONT
+HOMt_c_e	rxn	gpr:SPONT
+ILEt_c_m	rxn	gpr:SPONT
+MALt_c_e	rxn	gpr:SPONT
+PROt_c_m	rxn	gpr:SPONT
+MALOAAta_x	rxn	gpr:SPONT
+MANNANt_c_r	rxn	gpr:SPONT
+NADPt_c_r	rxn	gpr:SPONT
+NADPHt_c_r	rxn	gpr:SPONT
+NH4t_c_m	rxn	gpr:SPONT
+NCAMt_c_n	rxn	gpr:SPONT
+NMNt_c_n	rxn	gpr:SPONT
+NMNt_c_x	rxn	gpr:SPONT
+NMNt_c_e	rxn	gpr:SPONT
+OCDCAt_c_e	rxn	gpr:SPONT
+OAAt_c_e	rxn	gpr:SPONT
+TRDOXt_c_x	rxn	gpr:SPONT
+PMTCOAt_c_r	rxn	gpr:SPONT
+PAN4Pt_c_m	rxn	gpr:SPONT
+PAPt_c	rxn	gpr:SPONT
+PACALDt_c_e	rxn	gpr:SPONT
+PACALDt_c_m	rxn	gpr:SPONT
+PHEt_c_m	rxn	gpr:SPONT
+PPPG9t_c_m	rxn	gpr:SPONT
+PRPPt_c_m	rxn	gpr:SPONT
+PPIt_c_m	rxn	gpr:SPONT
+QULNt_c_m	rxn	gpr:SPONT
+TRDRDt_c_x	rxn	gpr:SPONT
+RIBFLVt_c_m	rxn	gpr:SPONT
+AHCYSt_c_m	rxn	gpr:SPONT
+SQLt_c_r	rxn	gpr:SPONT
+SSQ23EPXt_c_r	rxn	gpr:SPONT
+SUCCt_c_e	rxn	gpr:SPONT
+TTCCOAt_c_r	rxn	gpr:SPONT
+THYMDt_c_e	rxn	gpr:SPONT
+TREt_c_v	rxn	gpr:SPONT
+TRPt_c_m	rxn	gpr:SPONT
+IND3ETHt_c_e	rxn	gpr:SPONT
+IND3ETHt_c_m	rxn	gpr:SPONT
+TYRt_c_m	rxn	gpr:SPONT
+TYRt_c_x	rxn	gpr:SPONT
+UMPt_c_n	rxn	gpr:SPONT
+VALt_c_m	rxn	gpr:SPONT
+XANt_c_e	rxn	gpr:SPONT
+XTSNt_c_e	rxn	gpr:SPONT
+COAt_c_l	rxn	gpr:SPONT
+Ht_c_m	rxn	gpr:SPONT
+14DMLANOSTt_c_e	rxn	gpr:SPONT
+ERGTETROLt_c_e	rxn	gpr:SPONT
+OCTAt_c_e	rxn	gpr:SPONT
+DCAt_c_e	rxn	gpr:SPONT
+DDCAt_c_e	rxn	gpr:SPONT
+OCDCEAt_c_e	rxn	gpr:SPONT
+BUTt_c_x	rxn	gpr:SPONT
+HXAt_c_x	rxn	gpr:SPONT
+DDCAt_c_rm	rxn	gpr:SPONT
+TTDCAt_c_rm	rxn	gpr:SPONT
+HDCAt_c_rm	rxn	gpr:SPONT
+HDCEAt_c_rm	rxn	gpr:SPONT
+OCDCAt_c_rm	rxn	gpr:SPONT
+OCDCEAt_c_rm	rxn	gpr:SPONT
+MALCOAt_c_rm	rxn	gpr:SPONT
+DDCACOAt_c_rm	rxn	gpr:SPONT
+TDCOAt_c_rm	rxn	gpr:SPONT
+PMTCOAt_c_rm	rxn	gpr:SPONT
+HDCOAt_c_rm	rxn	gpr:SPONT
+STCOAt_c_rm	rxn	gpr:SPONT
+ODECOAt_c_rm	rxn	gpr:SPONT
+ICOSCOAt_c_rm	rxn	gpr:SPONT
+DOCOSCOAt_c_rm	rxn	gpr:SPONT
+TTCCOAt_c_rm	rxn	gpr:SPONT
+HXCCOAt_c_rm	rxn	gpr:SPONT
+Ht_c_rm	rxn	gpr:SPONT
+COAt_c_rm	rxn	gpr:SPONT
+NADPHt_c_rm	rxn	gpr:SPONT
+NADPt_c_rm	rxn	gpr:SPONT
+NADHt_c_rm	rxn	gpr:SPONT
+NADt_c_rm	rxn	gpr:SPONT
+GLYC3Pt_c_rm	rxn	gpr:SPONT
+DHAPt_c_rm	rxn	gpr:SPONT
+PPIt_c_rm	rxn	gpr:SPONT
+PIt_c_rm	rxn	gpr:SPONT
+CTPt_c_rm	rxn	gpr:SPONT
+CDPt_c_rm	rxn	gpr:SPONT
+CMPt_c_rm	rxn	gpr:SPONT
+CDPEAt_c_rm	rxn	gpr:SPONT
+CDPCHOLt_c_rm	rxn	gpr:SPONT
+ATPt_c_rm	rxn	gpr:SPONT
+AMPt_c_rm	rxn	gpr:SPONT
+INOSTt_c_rm	rxn	gpr:SPONT
+AMETt_c_rm	rxn	gpr:SPONT
+AHCYSt_c_rm	rxn	gpr:SPONT
+EPISTt_c_rm	rxn	gpr:SPONT
+FECOSTt_c_rm	rxn	gpr:SPONT
+LANOSTt_c_rm	rxn	gpr:SPONT
+ZYMSTt_c_rm	rxn	gpr:SPONT
+G3PCt_c_rm	rxn	gpr:SPONT
+HDCAt_c_l	rxn	gpr:SPONT
+HDCEAt_c_l	rxn	gpr:SPONT
+OCDCAt_c_l	rxn	gpr:SPONT
+OCDCEAt_c_l	rxn	gpr:SPONT
+DDCACOAt_c_l	rxn	gpr:SPONT
+TDCOAt_c_l	rxn	gpr:SPONT
+PMTCOAt_c_l	rxn	gpr:SPONT
+HDCOAt_c_l	rxn	gpr:SPONT
+STCOAt_c_l	rxn	gpr:SPONT
+ODECOAt_c_l	rxn	gpr:SPONT
+GLYC3Pt_c_l	rxn	gpr:SPONT
+DHAPt_c_l	rxn	gpr:SPONT
+NADPHt_c_l	rxn	gpr:SPONT
+NADPt_c_l	rxn	gpr:SPONT
+ATPt_c_l	rxn	gpr:SPONT
+AMPt_c_l	rxn	gpr:SPONT
+PPIt_c_l	rxn	gpr:SPONT
+GLYCt_c_l	rxn	gpr:SPONT
+DOCOSCOAt_c_l	rxn	gpr:SPONT
+TTCCOAt_c_l	rxn	gpr:SPONT
+HXCCOAt_c_l	rxn	gpr:SPONT
+ATPt_c_en	rxn	gpr:SPONT
+ADPt_c_en	rxn	gpr:SPONT
+Ht_c_en	rxn	gpr:SPONT
+HDCAt_c_en	rxn	gpr:SPONT
+HDCEAt_c_en	rxn	gpr:SPONT
+OCDCAt_c_en	rxn	gpr:SPONT
+OCDCEAt_c_en	rxn	gpr:SPONT
+ICOSCOAt_c_en	rxn	gpr:SPONT
+DOCOSCOAt_c_en	rxn	gpr:SPONT
+TTCCOAt_c_en	rxn	gpr:SPONT
+HXCCOAt_c_en	rxn	gpr:SPONT
+Ht_c_vm	rxn	gpr:SPONT
+ATPt_c_vm	rxn	gpr:SPONT
+ADPt_c_vm	rxn	gpr:SPONT
+PIt_c_gm	rxn	gpr:SPONT
+Ht_c_gm	rxn	gpr:SPONT
+ATPt_c_gm	rxn	gpr:SPONT
+ADPt_c_gm	rxn	gpr:SPONT
+HDCOAt_c_mm	rxn	gpr:SPONT
+ODECOAt_c_mm	rxn	gpr:SPONT
+HDCAt_c_mm	rxn	gpr:SPONT
+OCDCAt_c_mm	rxn	gpr:SPONT
+DDCAt_l_rm	rxn	gpr:SPONT
+TTDCAt_l_rm	rxn	gpr:SPONT
+TTCt_l_rm	rxn	gpr:SPONT
+HXCAt_l_rm	rxn	gpr:SPONT
+EPISTt_l_rm	rxn	gpr:SPONT
+FECOSTt_l_rm	rxn	gpr:SPONT
+LANOSTt_l_rm	rxn	gpr:SPONT
+ZYMSTt_l_rm	rxn	gpr:SPONT
+ERGST161t_l_rm	rxn	gpr:SPONT
+ERGST181t_l_rm	rxn	gpr:SPONT
+EPIST161t_l_rm	rxn	gpr:SPONT
+EPIST181t_l_rm	rxn	gpr:SPONT
+FECOST161t_l_rm	rxn	gpr:SPONT
+FECOST181t_l_rm	rxn	gpr:SPONT
+LANOST161t_l_rm	rxn	gpr:SPONT
+LANOST181t_l_rm	rxn	gpr:SPONT
+ZYM161t_l_rm	rxn	gpr:SPONT
+ZYM181t_l_rm	rxn	gpr:SPONT
+TTCt_en_rm	rxn	gpr:SPONT
+HXCAt_en_rm	rxn	gpr:SPONT
+ZYM161t_en_rm	rxn	gpr:SPONT
+ZYM181t_en_rm	rxn	gpr:SPONT
+TTCt_r_rm	rxn	gpr:SPONT
+HXCAt_r_rm	rxn	gpr:SPONT
+PIt_r_rm	rxn	gpr:SPONT
+Ht_m_mm	rxn	gpr:SPONT
+GLYC3Pt_m_mm	rxn	gpr:SPONT
+PPIt_m_mm	rxn	gpr:SPONT
+HEMEAt_c_m	rxn	gpr:SPONT
+PIt_c_g	rxn	gpr:SPONT
+PPCOAt_c_m	rxn	gpr:SPONT
+UDPt_c_g	rxn	gpr:SPONT
+UDPt_c_n	rxn	gpr:SPONT
+UMPt_c_g	rxn	gpr:SPONT
+PAt_gm_rm	rxn	gpr:SPONT
+PAt_l_rm	rxn	gpr:SPONT
+PAt_mm_rm	rxn	gpr:SPONT
+PAt_rm_vm	rxn	gpr:SPONT
+PAt_en_rm	rxn	gpr:SPONT
+DAGt_c_l	rxn	gpr:SPONT
+DAGt_c_mm	rxn	gpr:SPONT
+DAGt_c_n	rxn	gpr:SPONT
+DAGt_c_rm	rxn	gpr:SPONT
+DAGt_gm_rm	rxn	gpr:SPONT
+TAGt_c_rm	rxn	gpr:SPONT
+TAGt_l_rm	rxn	gpr:SPONT
+1AGPEt_l_rm	rxn	gpr:SPONT
+1AGPCt_l_rm	rxn	gpr:SPONT
+PSt_c_rm	rxn	gpr:SPONT
+PSt_en_rm	rxn	gpr:SPONT
+PSt_mm_rm	rxn	gpr:SPONT
+PSt_rm_vm	rxn	gpr:SPONT
+PAILt_c_rm	rxn	gpr:SPONT
+PAILt_en_rm	rxn	gpr:SPONT
+PAILt_rm_vm	rxn	gpr:SPONT
+PAILt_gm_rm	rxn	gpr:SPONT
+PAILt_n_rm	rxn	gpr:SPONT
+CERt_g_r	rxn	gpr:SPONT
+PCt_l_rm	rxn	gpr:SPONT
+PCt_en_rm	rxn	gpr:SPONT
+PCt_mm_rm	rxn	gpr:SPONT
+PCt_c_rm	rxn	gpr:SPONT
+PEt_l_rm	rxn	gpr:SPONT
+PEt_c_rm	rxn	gpr:SPONT
+PEt_en_rm	rxn	gpr:SPONT
+PEt_mm_rm	rxn	gpr:SPONT
+PEt_rm_vm	rxn	gpr:SPONT
+PAIL4Pt_c_en	rxn	gpr:SPONT
+PAIL4Pt_en_rm	rxn	gpr:SPONT
+PAIL45Pt_c_n	rxn	gpr:SPONT
+PAIL45Pt_c_en	rxn	gpr:SPONT
+PAIL45Pt_en_rm	rxn	gpr:SPONT
+PAIL3Pt_gm_vm	rxn	gpr:SPONT
+PAIL3Pt_rm_vm	rxn	gpr:SPONT
+PAIL35Pt_c_vm	rxn	gpr:SPONT
+PAIL35Pt_en_vm	rxn	gpr:SPONT
+IPCt_g_r	rxn	gpr:SPONT
+MIPCt_g_r	rxn	gpr:SPONT
+MIP2Ct_g_r	rxn	gpr:SPONT
+HCITt_c_m	rxn	gpr:SPONT
+compCER_m	rxn	gpr:SPONT
+compCER_r	rxn	gpr:SPONT
+compCER_g	rxn	gpr:SPONT
+compACYLCOA_c	rxn	gpr:SPONT
+compACYLCOA_l	rxn	gpr:SPONT
+compACYLCOA_m	rxn	gpr:SPONT
+compACYLCOA_r	rxn	gpr:SPONT
+compACYLCOA_rm	rxn	gpr:SPONT
+compACYLCOA_x	rxn	gpr:SPONT
+compFALPD_mm	rxn	gpr:SPONT
+compFALPD_l	rxn	gpr:SPONT
+compFALPD_m	rxn	gpr:SPONT
+compFALPD_rm	rxn	gpr:SPONT
+compFALPD_en	rxn	gpr:SPONT
+BIOMASS_AERO_SC_hvd	rxn	gpr:SPONT
+BIOMASS_BATCHANAERO_SC_hvd	rxn	gpr:SPONT
+BIOMASS_CHEMOANAERO_SC_hvd	rxn	gpr:SPONT
+BIOMASS_STARVEAERO_SC_hvd	rxn	gpr:SPONT
+BIOMASS_STARVEANAERO_SC_hvd	rxn	gpr:SPONT
+dicat_c	met	create
+dicat_c	met	name:Generic divalent cation
+dicat_c	met	charge:2
+dicat_c	met	annotation:chebi-CHEBI:60240
+DICAT1_c	rxn	create
+DICAT1_c	rxn	name:Divalent cation from Mg2+
+DICAT1_c	rxn	reaction:mg2_c --> dicat_c
+DICAT1_c	rxn	gpr:SPONT
+DICAT1_c	rxn	subsystem:Unassigned
+DICAT1_c	rxn	lower_bound:0
+DICAT1_c	rxn	upper_bound:1000
+DICAT2_c	rxn	create
+DICAT2_c	rxn	name:Divalent cation from Zn2+
+DICAT2_c	rxn	reaction:zn2_c --> dicat_c
+DICAT2_c	rxn	gpr:SPONT
+DICAT2_c	rxn	subsystem:Unassigned
+DICAT2_c	rxn	lower_bound:0
+DICAT2_c	rxn	upper_bound:1000
+DICAT3_c	rxn	create
+DICAT3_c	rxn	name:Divalent cation from Ca2+
+DICAT3_c	rxn	reaction:ca2_c --> dicat_c
+DICAT3_c	rxn	gpr:SPONT
+DICAT3_c	rxn	subsystem:Unassigned
+DICAT3_c	rxn	lower_bound:0
+DICAT3_c	rxn	upper_bound:1000
+DICAT4_c	rxn	create
+DICAT4_c	rxn	name:Divalent cation from Cu2+
+DICAT4_c	rxn	reaction:cu2_c --> dicat_c
+DICAT4_c	rxn	gpr:SPONT
+DICAT4_c	rxn	subsystem:Unassigned
+DICAT4_c	rxn	lower_bound:0
+DICAT4_c	rxn	upper_bound:1000
+DICAT5_c	rxn	create
+DICAT5_c	rxn	name:Divalent cation from Fe2+
+DICAT5_c	rxn	reaction:fe2_c --> dicat_c
+DICAT5_c	rxn	gpr:SPONT
+DICAT5_c	rxn	subsystem:Unassigned
+DICAT5_c	rxn	lower_bound:0
+DICAT5_c	rxn	upper_bound:1000
+ni2_c	met	create
+ni2_c	met	name:Nickel
+ni2_c	met	formula:Ni
+ni2_c	met	charge:2
+ni2_c	met	compartment:c
+ni2_c	met	annotation:kegg.compound-C19609
+ni2_e	met	copy:ni2_c
+ni2_e	met	compartment:e
+DICAT6_c	rxn	create
+DICAT6_c	rxn	name:Divalent cation from Ni2+
+DICAT6_c	rxn	reaction:ni2_c --> dicat_c
+DICAT6_c	rxn	gpr:SPONT
+DICAT6_c	rxn	subsystem:Unassigned
+DICAT6_c	rxn	lower_bound:0
+DICAT6_c	rxn	upper_bound:1000
+cobalt2_c	met	create
+cobalt2_c	met	name:Co2+
+cobalt2_c	met	formula:Co
+cobalt2_c	met	charge:2
+cobalt2_c	met	compartment:c
+cobalt2_c	met	annotation:kegg.compound-C00175
+cobalt2_e	met	copy:cobalt2_c
+cobalt2_e	met	compartment:e
+DICAT7_c	rxn	create
+DICAT7_c	rxn	name:Divalent cation from Co2+
+DICAT7_c	rxn	reaction:cobalt2_c --> dicat_c
+DICAT7_c	rxn	gpr:SPONT
+DICAT7_c	rxn	subsystem:Unassigned
+DICAT7_c	rxn	lower_bound:0
+DICAT7_c	rxn	upper_bound:1000
+DICAT8_c	rxn	create
+DICAT8_c	rxn	name:Divalent cation from Mn2+
+DICAT8_c	rxn	reaction:mn2_c --> dicat_c
+DICAT8_c	rxn	gpr:SPONT
+DICAT8_c	rxn	subsystem:Unassigned
+DICAT8_c	rxn	lower_bound:0
+DICAT8_c	rxn	upper_bound:1000
+EX_cobalt2_e	rxn	create
+EX_cobalt2_e	rxn	name:Co2+ exchange
+EX_cobalt2_e	rxn	reaction:cobalt2_e <=>
+EX_cobalt2_e	rxn	gpr:SPONT
+EX_cobalt2_e	rxn	subsystem:Exchange
+EX_cobalt2_e	rxn	lower_bound:-1000
+EX_cobalt2_e	rxn	upper_bound:1000
+COBALT2t_c_e	rxn	create
+COBALT2t_c_e	rxn	name:Co2+ transport
+COBALT2t_c_e	rxn	reaction:cobalt2_e --> cobalt2_c
+COBALT2t_c_e	rxn	gpr:SPONT
+COBALT2t_c_e	rxn	subsystem:Transport
+COBALT2t_c_e	rxn	lower_bound:0
+COBALT2t_c_e	rxn	upper_bound:1000
+EX_ni2_e	rxn	create
+EX_ni2_e	rxn	name:Ni2+ exchange
+EX_ni2_e	rxn	reaction:ni2_e <=>
+EX_ni2_e	rxn	gpr:SPONT
+EX_ni2_e	rxn	subsystem:Exchange
+EX_ni2_e	rxn	lower_bound:-1000
+EX_ni2_e	rxn	upper_bound:1000
+NI2t_c_e	rxn	create
+NI2t_c_e	rxn	name:Ni2+ transport
+NI2t_c_e	rxn	reaction:ni2_e --> ni2_c
+NI2t_c_e	rxn	gpr:SPONT
+NI2t_c_e	rxn	subsystem:Transport
+NI2t_c_e	rxn	lower_bound:0
+NI2t_c_e	rxn	upper_bound:1000
+hemegen_c	met	create
+hemegen_c	met	name:Generic heme
+hemegen_c	met	annotation:chebi-CHEBI:30413
+HEME1_c	rxn	create
+HEME1_c	rxn	name:Generic heme from heme A
+HEME1_c	rxn	reaction:hemeA_c --> hemegen_c
+HEME1_c	rxn	gpr:SPONT
+HEME1_c	rxn	subsystem:Unassigned
+HEME1_c	rxn	lower_bound:0
+HEME1_c	rxn	upper_bound:1000
+HEME2_c	rxn	create
+HEME2_c	rxn	name:Generic heme from heme O
+HEME2_c	rxn	reaction:hemeO_m --> hemegen_c
+HEME2_c	rxn	gpr:SPONT
+HEME2_c	rxn	subsystem:Unassigned
+HEME2_c	rxn	lower_bound:0
+HEME2_c	rxn	upper_bound:1000
+HEME3_c	rxn	create
+HEME3_c	rxn	name:Generic heme from heme B
+HEME3_c	rxn	reaction:pheme_m --> hemegen_c
+HEME3_c	rxn	gpr:SPONT
+HEME3_c	rxn	subsystem:Unassigned
+HEME3_c	rxn	lower_bound:0
+HEME3_c	rxn	upper_bound:1000
+HEME4_c	rxn	create
+HEME4_c	rxn	name:Generic heme from siroheme
+HEME4_c	rxn	reaction:sheme_c --> hemegen_c
+HEME4_c	rxn	gpr:SPONT
+HEME4_c	rxn	subsystem:Unassigned
+HEME4_c	rxn	lower_bound:0
+HEME4_c	rxn	upper_bound:1000
+lipoate_m	met	create
+lipoate_m	met	name:Lipoate
+lipoate_m	met	formula:C8H13O2S2
+lipoate_m	met	charge:-1
+lipoate_m	met	annotation:chebi-CHEBI:83088
+lipoate_m	met	annotation:kegg.compound-C16241
+LIPOATE_m	rxn	create
+LIPOATE_m	rxn	name:Lipoate from lipoyl-ACP for cofactor purpose
+LIPOATE_m	rxn	reaction:lipACP_m --> lipoate_m + ACP_m
+LIPOATE_m	rxn	gpr:SPONT
+LIPOATE_m	rxn	subsystem:Unassigned
+LIPOATE_m	rxn	lower_bound:0
+LIPOATE_m	rxn	upper_bound:1000
+moncat_c	met	create
+moncat_c	met	name:Generic monovalent cation
+moncat_c	met	charge:1
+moncat_c	met	annotation:chebi-CHEBI:60242
+MONCAT1_c	rxn	create
+MONCAT1_c	rxn	name:Monovalent cation from Na+
+MONCAT1_c	rxn	reaction:na1_c --> moncat_c
+MONCAT1_c	rxn	gpr:SPONT
+MONCAT1_c	rxn	subsystem:Unassigned
+MONCAT1_c	rxn	lower_bound:0
+MONCAT1_c	rxn	upper_bound:1000
+MONCAT2_c	rxn	create
+MONCAT2_c	rxn	name:Monovalent cation from K+
+MONCAT2_c	rxn	reaction:k_c --> moncat_c
+MONCAT2_c	rxn	gpr:SPONT
+MONCAT2_c	rxn	subsystem:Unassigned
+MONCAT2_c	rxn	lower_bound:0
+MONCAT2_c	rxn	upper_bound:1000
+MONCAT3_c	rxn	create
+MONCAT3_c	rxn	name:Monovalent cation from NH4+
+MONCAT3_c	rxn	reaction:nh4_c --> moncat_c
+MONCAT3_c	rxn	gpr:SPONT
+MONCAT3_c	rxn	subsystem:Unassigned
+MONCAT3_c	rxn	lower_bound:0
+MONCAT3_c	rxn	upper_bound:1000
+DGAT_rm	rxn	gpr:YOR245C
+PEMT_rm	rxn	gpr:YGR157W
+PFK_3_c	rxn	remove
+ACS_m	rxn	remove

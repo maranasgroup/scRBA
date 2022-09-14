@@ -1,0 +1,17 @@
+$setGlobal species_path ../../../../../GAMS/model/RBA_species.txt
+$setGlobal rxns_path ../../../../../GAMS/model/RBA_rxns.txt
+$setGlobal rxns_enzsyn_path ../../../../../GAMS/model/RBA_rxns_enzsyn.txt
+$setGlobal rxns_enzload_path ../../../../../GAMS/model/RBA_rxns_enzload.txt
+$setGlobal nuc_trans_path ../../../../../GAMS/model/RBA_nuc_translation.txt
+$setGlobal mito_trans_path ../../../../../GAMS/model/RBA_mito_translation.txt
+$setGlobal uptake_path ../../../../../GAMS/model/RBA_rxns_EXREV.txt
+$setGlobal media_path ../../../../../GAMS/model/RBA_rxns_EXREV_YNB.txt
+$setGlobal sij_path ../../../../../GAMS/model/RBA_sij.txt
+$setGlobal prolen_path ../../../../../GAMS/model/RBA_proteinLength.txt
+$setGlobal phenotype_path ../phenotype.txt
+
+$setGlobal proteome_data_path ./proteome_data.txt
+$setGlobal proteome_data_set_path ./proteome_data_set.txt
+$setGlobal rxns_inactive_path ./rxns_inactive.txt
+
+$setGlobal venzSlackAllow 0

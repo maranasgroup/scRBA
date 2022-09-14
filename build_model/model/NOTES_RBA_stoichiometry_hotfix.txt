@@ -1,0 +1,5 @@
+Please remove these reactions manually from excel spreadhsheet RBA_stoichiometry.xlsx before running A02 scripts
+'ENZLOAD-DCMPDA_c_REV-YHR144C'
+'RXN-DCMPDA_c_REV-YHR144C'
+
+This is the reverse direction of DCMPDA_c, which is thermodynamically infeasible

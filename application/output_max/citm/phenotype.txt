@@ -1,0 +1,5 @@
+$include ../../input/phenotype_common.txt
+v.up('RXNADD-CITM1_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-CITM2_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-EX_citm_e_FWD-SPONT') = 1e3 * %nscale%;
+v.fx('RXN-THRA_c_FWD-YEL046C') = 0 * %nscale%;

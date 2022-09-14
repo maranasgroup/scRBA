@@ -1,0 +1,9 @@
+For kapp_inPerSec.xlsx, copy from ./kapp_inPerSec_frompy.xlsx
+Then, check TCA cycle kapp. In some dataset, low flux leads to near zero kapp (in Elsemann2022 batch and batchCyHx data) which skew the kapp median calculation
+Those near-zero kapp in TCA cycle are manually removed
+Some kapp for FECOOR_m and FECRq6_m are too large that seem to be outlier, possibly due to bad protein concentration measurements (i.e., being too low). Those are removed (marked in red) for Lahtvee2017_chemoT3, Bjorkeroth2020_batchYNB, Bjorkeroth2020_batchYNBAA, Yu2020_chemoClim, Yu2020_chemoNlimCN30, Yu2020_chemoNlimCN50.
+(Resolved FECOORCPLX enzyme concentration for batch: use Elsemann2022_batchGlc data instead)
+
+Something's odd with kapp of ATP synthase in N-limited. Not sure if it is due to bad measurements of ATP synthase subunits (i.e., being too low). Only bad measurements of a single subunit will skew the kapp calculation since the complex concentration is determined by the subunit of limited amount. Thus, kapp of N-lim for ATPS_m is recalibrated to the next lowest limiting subunit (see spreadsheet ATPS_subunit_conc_g_per_gDW.xlsx). Some more verifications and re-experiments are required to truly resolve this.
+
+

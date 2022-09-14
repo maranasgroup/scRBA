@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=4
+#PBS -l walltime=24:00:00
+#PBS -l pmem=8gb
+
+# Get started
+echo " "
+echo "Job started on `hostname` at `date`"
+echo " "
+
+# Load python
+cd /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/validation/output/batch/results/vglc_5_0/
+source /storage/home/h/hvd5034/work/Workspace/workpy3/bin/activate
+
+cp /storage/home/h/hvd5034/work/Workspace/workpy3/scRBA_github/pycore/binary_search/binary_search.py ./binary_search.py
+
+# Run job
+python < binary_search.py
+
+# Finish up
+echo " "
+echo "Job Ended at `date`"
+echo " "

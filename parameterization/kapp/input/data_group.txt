@@ -1,0 +1,11 @@
+data_group	data_entries
+batch_std	Bjorkeroth2020_batchYNB,Elsemman2022_batchGlc
+batch_rich	Bjorkeroth2020_batchYNBAA
+batch_anaero	Bjorkeroth2020_batchYNBanaero
+chemo_lowC	Lahtvee2017_chemoRef,Yu2021_chemoClimNH4_010
+chemo_highC	Elsemman2022_chemoGlc030
+chemo_lowN	Yu2021_chemoNlimNH4_010
+chemo_highN	Yu2021_chemoNlimNH4_030
+batch_Gal	Elsemman2022_batchGal
+batch_Malt	Elsemman2022_batchMalt
+batch_Tre	Elsemman2022_batchTre

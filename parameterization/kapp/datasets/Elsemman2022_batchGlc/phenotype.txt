@@ -1,0 +1,66 @@
+* Note: If infeasible, relax constraints and parameters by up to 10%
+* Growth rate
+$setGlobal mu 0.371
+* This condition is deemed microaerobic
+* Use batch anaerobic dilution reactions but remain the aerobic precursor requirements
+v.fx('BIOSYN-BIODILBATCHANAERO') = %mu% * %nscale%;
+
+* NGAM
+v.lo('RXN-ATPM_c_FWD-SPONT') = 1 * %nscale%;
+
+* Ribosome efficiency
+$setGlobal kribonuc 13.2*3600
+$setGlobal kribomito 13.2*3600
+
+* Enforce part of proteome allocate to non-modeled protein
+$setGlobal nonmodeled_proteome_allocation 0.2599
+
+* Carbohydrate, RNA, and protein fraction constraints
+* C-lim protein fraction
+v.fx('BIOSYN-PROTTOBIO') = %mu% * (36.94 + 34.22*%mu%) / 100 * %nscale%;
+* N-lim protein fraction
+*v.fx('BIOSYN-PROTTOBIO') = %mu% * (10.57 + 108.56*%mu%) / 100 * %nscale%;
+
+* RNA fraction for both C-lim and N-lim
+v.lo('BIOSYN-RNATOBIO') = %mu% * (3.79 + 13.88*%mu%) / 100 * %nscale%;
+v.up('BIOSYN-RNATOBIO') = %mu% * (3.79 + 13.88*%mu%) / 100 * %nscale%;
+
+* Substrate and oxygenation
+v.up('RXN-EX_glc__D_e_REV-SPONT') = 12.8207 * 1.07 * %nscale%;
+v.fx('RXN-EX_glc__D_e_FWD-SPONT') = 0 * %nscale%;
+
+v.fx('RXN-EX_o2_e_REV-SPONT') = (1.9259 + 0.5) * %nscale%;
+v.fx('RXN-EX_o2_e_FWD-SPONT') = 0 * %nscale%;
+
+* Secretions
+v.lo('RXN-EX_etoh_e_FWD-SPONT') = 18.1168 * %nscale%;
+v.fx('RXN-EX_etoh_e_REV-SPONT') = 0 * %nscale%;
+
+v.lo('RXN-EX_glyc_e_FWD-SPONT') = 1.2138 * %nscale%;
+v.fx('RXN-EX_glyc_e_REV-SPONT') = 0 * %nscale%;
+
+v.lo('RXN-EX_pyr_e_FWD-SPONT') = 0.0599 * %nscale%;
+v.fx('RXN-EX_pyr_e_REV-SPONT') = 0 * %nscale%;
+
+v.lo('RXN-EX_ac_e_FWD-SPONT') = 0.4756 * %nscale%;
+v.fx('RXN-EX_ac_e_REV-SPONT') = 0 * %nscale%;
+
+v.lo('RXN-EX_succ_e_FWD-SPONT') = 0.027 * %nscale%;
+v.fx('RXN-EX_succ_e_REV-SPONT') = 0 * %nscale%;
+
+v.lo('RXN-EX_co2_e_FWD-SPONT') = 21.0147 * %nscale%;
+v.fx('RXN-EX_co2_e_REV-SPONT') = 0 * %nscale%;
+
+* Disable these pathways that draw massive flux away from the TCA cycle in pFBA.
+* This pathway carrying large flux seems unrealistic
+* Disable formate dehydrogenase (still allow equivalent of 1% glucose uptake by value in case formate balance is required for growth)
+v.up('RXN-FDH_c_FWD-YOR388C') = 0.01 * 12.8207 * %nscale%;
+* Disable GABA shunt (still allow equivalent of 1% glucose uptake by value in case succinate balance is required for growth)
+v.up('RXN-ABTA_c_FWD-YGR019W') = 0.01 * 12.8207 * %nscale%;
+* Totally unrelated reactions that form transhydrogenase cycle
+v.fx('RXN-4ABTORy_c_FWD-YMR110C') = 0 * %nscale%;
+v.fx('RXN-4ABTORy_c_REV-YMR110C') = 0 * %nscale%;
+v.fx('RXN-4ABTORx_c_FWD-YMR110C') = 0 * %nscale%;
+* Disable FADH2 transport across mitochondrial membrane. Enable this creating fumarate-succinate
+* shuttle that enables proton gradient generation
+v.fx('RXN-FADH2t_c_m_FWD-YIL134W') = 0 * %nscale%;

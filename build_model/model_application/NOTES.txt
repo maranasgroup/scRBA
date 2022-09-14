@@ -1,0 +1,1 @@
+RBA_stoichiometry_appl.xlsx is created from ../model/RBA_stoichiometry.xlsx with rows encoding heterologous pathways added at the end.

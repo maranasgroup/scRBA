@@ -1,0 +1,7 @@
+$setGlobal pro_and_enz_path ../../../../../GAMS/parameterization/enz_from_proteome/pro_and_enz.txt
+$setGlobal rxns_pro_and_enz_path ../../../../../GAMS/parameterization/enz_from_proteome/rxns_pro_and_enz.txt
+$setGlobal rxns_enz_path ../../../../../GAMS/parameterization/enz_from_proteome/rxns_enz.txt
+$setGlobal sij_pro_and_enz_path ../../../../../GAMS/parameterization/enz_from_proteome/sij_pro_and_enz.txt
+$setGlobal rxns_pro_data_path ./rxns_pro_data.txt
+$setGlobal rxns_pro_nodata_path ./rxns_pro_nodata.txt
+$setGlobal proteome_data_path ./proteome_data.txt

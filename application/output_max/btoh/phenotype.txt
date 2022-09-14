@@ -1,0 +1,13 @@
+$include ../../input/phenotype_common.txt
+v.up('RXNADD-BTOH1_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH2_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH3_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH4_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH5_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH6_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH7_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH8_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH9_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH10_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-BTOH11_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-EX_btoh_e_FWD-SPONT') = 1e3 * %nscale%;
