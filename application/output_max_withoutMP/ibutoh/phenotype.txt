@@ -1,0 +1,3 @@
+$include ../../input/phenotype_common.txt
+v.up('RXNADD-IBUTOH1_FWD-SPONT') = 1e3 * %nscale%;
+$setGlobal max_allowed_mito_proteome_allo_fraction 1

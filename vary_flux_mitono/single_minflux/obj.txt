@@ -1,0 +1,1 @@
+Obj.. z =e= (-1) * v('RXN-DUTPDP_c_FWD-YBR252W') + (-1) * v('RXN-DUTPDP_c_FWD-YJR069C');

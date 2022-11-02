@@ -1,0 +1,21 @@
+Pass mu = 0 test, now proceed to binary search.
+mu = 0.7500000, status = optimal
+mu = 1.1250000, status = infeasible
+mu = 0.9375000, status = infeasible
+mu = 0.8437500, status = need_rerun
+mu = 0.8437600, status = optimal
+mu = 0.8906300, status = infeasible
+mu = 0.8671950, status = infeasible
+mu = 0.8554775, status = infeasible
+mu = 0.8496187, status = optimal
+mu = 0.8525481, status = infeasible
+mu = 0.8510834, status = infeasible
+mu = 0.8503511, status = optimal
+mu = 0.8507173, status = optimal
+mu = 0.8509004, status = infeasible
+mu = 0.8508088, status = infeasible
+mu = 0.8507630, status = optimal
+mu = 0.8507859, status = infeasible
+mu = 0.8507745, status = optimal
+mu = 0.8507802, status = optimal
+Run time = 8.32 mins

@@ -1,0 +1,2 @@
+$include ../../input/phenotype_common.txt
+v.up('RXN-EX_4abz_e_REV-SPONT') = 0;

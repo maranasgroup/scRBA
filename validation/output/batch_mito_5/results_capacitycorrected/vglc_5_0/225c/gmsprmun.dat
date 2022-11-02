@@ -1,0 +1,6 @@
+Input=runRBA.gms
+Output=/dev/null
+ScrDir=225c
+SysDir=/opt/global/RedHat-7/production/20220812/apps/gams/39.1_gcc-4.8.5
+ScriptNext=225c/gamsnext.sh
+--mu=0.3125

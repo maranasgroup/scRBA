@@ -2,7 +2,6 @@
 * Parameters define in this file will overwrite ones define in GAMS runRBA.gms file
 * Select appropriate biomass reaction (different in GAM value)
 * Set growth rate in the python scripts' GAMs execution through os module
-
 $setGlobal mu 0.4236
 
 v.fx('BIOSYN-BIODILAERO') = %mu% * %nscale%;

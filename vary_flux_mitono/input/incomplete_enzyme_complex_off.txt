@@ -1,0 +1,20 @@
+* Disable functional enzyme complex with incomplete subunit compositions
+v.fx('RXN-ACHBS_m_FWD-YMR108W') = 0 * %nscale%;
+v.fx('RXN-RNDR1_c_FWD-RNR124') = 0 * %nscale%;
+v.fx('RXN-RNDR1_n_FWD-RNR124') = 0 * %nscale%;
+v.fx('RXN-RNDR3_c_FWD-RNR124') = 0 * %nscale%;
+v.fx('RXN-RNDR3_n_FWD-RNR124') = 0 * %nscale%;
+v.fx('RXN-RNDR2_c_FWD-RNR124') = 0 * %nscale%;
+v.fx('RXN-RNDR2_n_FWD-RNR124') = 0 * %nscale%;
+v.fx('RXN-CBPS_c_FWD-YJL130C') = 0 * %nscale%;
+v.fx('RXN-PPCDC_c_FWD-CAB3SIS2') = 0 * %nscale%;
+v.fx('RXN-PPCDC_c_FWD-CAB3VHS3') = 0 * %nscale%;
+v.fx('RXN-HEX1_c_FWD-YLR446W') = 0 * %nscale%;
+* Disable enzyme of low activity
+v.fx('RXN-AATA_c_FWD-YJL060W') = 0 * %nscale%;
+v.fx('RXN-AATA_c_REV-YJL060W') = 0 * %nscale%;
+v.fx('RXN-AATA_c_FWD-YER152C') = 0 * %nscale%;
+v.fx('RXN-AATA_c_REV-YER152C') = 0 * %nscale%;
+* Disable minor isozyme of PDC
+v.fx('RXN-PYRDC_c_FWD-YGR087C') = 0 * %nscale%;
+v.fx('RXN-PYRDC_c_FWD-YLR134W') = 0 * %nscale%;

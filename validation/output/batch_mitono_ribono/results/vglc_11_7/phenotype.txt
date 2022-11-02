@@ -1,0 +1,2 @@
+$setGlobal vglc 11.7
+$include ../../phenotype_common.txt

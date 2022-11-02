@@ -1,0 +1,3 @@
+$include ../../input/phenotype_common.txt
+v.up('RXNADD-TAG1_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-EX_tag_e_FWD-SPONT') = 1e3 * %nscale%;

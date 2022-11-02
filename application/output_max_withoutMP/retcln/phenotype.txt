@@ -1,0 +1,15 @@
+$include ../../input/phenotype_common.txt
+v.up('RXNADD-RETCLN1_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN2_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN3_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN4_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN5_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN6_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN7_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN8_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN9_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN10_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN11_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN12_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-RETCLN13_FWD-SPONT') = 1e3 * %nscale%;
+v.up('RXNADD-EX_retcln_e_FWD-SPONT') = 1e3 * %nscale%;

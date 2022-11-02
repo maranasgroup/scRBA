@@ -1,0 +1,13 @@
+$setGlobal species_path ../../../../../GAMS/model/RBA_species.txt
+$setGlobal rxns_path ../../../../../GAMS/model/RBA_rxns.txt
+$setGlobal prosyn_path ../../../../../GAMS/model/RBA_rxns_prosyn.txt
+$setGlobal prowaste_path ../../../../../GAMS/model/RBA_rxns_prowaste.txt
+$setGlobal nuc_trans_path ../../../../../GAMS/model/RBA_nuc_translation.txt
+$setGlobal mito_trans_path ../../../../../GAMS/model/RBA_mito_translation.txt
+$setGlobal uptake_path ../../../../../GAMS/model/RBA_rxns_EXREV.txt
+$setGlobal media_path ../../../../../GAMS/model/RBA_rxns_EXREV_YNB.txt
+$setGlobal sij_path ../../../../../GAMS/model/RBA_sij.txt
+$setGlobal prolen_path ../../../../../GAMS/model/RBA_proteinLength.txt
+$setGlobal kapp_path ../../../../../input/RBA_kapp_batch_per_hour.txt
+$setGlobal enz_cap_declares_path ../../../../../GAMS/model/RBA_enzCapacityConstraints_declares.txt
+$setGlobal enz_cap_eqns_path ../../../../../GAMS/model/RBA_enzCapacityConstraints_eqns_equality_version.txt
