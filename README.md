@@ -5,4 +5,4 @@ Hoang V. Dinh and Costas D. Maranas<br>
 bioRxiv 2022.09.20.508694; doi: https://doi.org/10.1101/2022.09.20.508694<br>
 <br>
 Formulation and software usage guide are available at /scRBA/suppMat/scRBA_suppMethods_2022-09-12.docx<br>
-Program and packages requirements for the provided software implementation: Python 3 (packages: cobra, pandas, numpy, matplotlib, jupyter, scikit-learn, cplex (compiled from installed CPLEX linear programming solver), and all automatically-installed associated precursor packages to those already listed) and GAMS with ("built-in") Soplex solver.
+Program and packages requirements for the provided software implementation: Python 3 (plus packages: cobra, pandas, numpy, matplotlib, jupyter, scikit-learn, cplex (compiled from installed CPLEX linear programming solver), and all automatically-installed associated dependencies to those already listed) and GAMS with ("built-in") Soplex solver. (Tested on Python 3.6 and GAMS 39.1.0. Python package installation could be done through "pip" and could take up to 1 hour)
